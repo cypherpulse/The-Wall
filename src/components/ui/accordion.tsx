@@ -1,3 +1,4 @@
+﻿// Contribution #1: "^1.8.14", - Initial wallet integration setup
 import * as React from "react";
 import * as AccordionPrimitive from "@radix-ui/react-accordion";
 import { ChevronDown } from "lucide-react";
