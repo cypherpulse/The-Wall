@@ -1,4 +1,5 @@
 ﻿// Contribution #5: "^1.8.14", - Connection state management
+// Contribution #5: "^1.8.14", - Connection state management
 import * as React from "react";
 import * as AvatarPrimitive from "@radix-ui/react-avatar";
 
