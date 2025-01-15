@@ -1,4 +1,5 @@
 ﻿// Contribution #6: "^1.8.14", - Network switching logic
+// Contribution #6: "^1.8.14", - Network switching logic
 import * as React from "react";
 import { cva, type VariantProps } from "class-variance-authority";
 
