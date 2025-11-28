@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Sci-fi cyberpunk theme - black, white, neon green */
+    --background: 0 0% 0%;
+    --foreground: 0 0% 100%;
+
+    --card: 0 0% 8%;
+    --card-foreground: 0 0% 100%;
+
+    --popover: 0 0% 8%;
+    --popover-foreground: 0 0% 100%;
+
+    /* Neon green primary */
+    --primary: 160 100% 50%;
+    --primary-foreground: 0 0% 0%;
+
+    --secondary: 0 0% 15%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 0 0% 12%;
+    --muted-foreground: 0 0% 65%;
+
+    --accent: 160 100% 50%;
+    --accent-foreground: 0 0% 0%;
+
+    --destructive: 0 85% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 160 100% 50% / 0.3;
+    --input: 160 100% 50% / 0.2;
+    --ring: 160 100% 50%;
+
+    --radius: 0.5rem;
+
+    /* Glow effects */
+    --glow-primary: 160 100% 50%;
+    --glow-intensity: 0 0 20px hsl(var(--glow-primary));
+    
+    /* Circuit pattern */
+    --circuit-color: 160 100% 50% / 0.05;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-inter;
+    background-image: 
+      /* Brick wall pattern in the far background */
+      repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 30px,
+        hsl(var(--circuit-color)) 30px,
+        hsl(var(--circuit-color)) 31px
+      ),
+      repeating-linear-gradient(
+        90deg,
+        transparent,
+        transparent 60px,
+        hsl(var(--circuit-color)) 60px,
+        hsl(var(--circuit-color)) 61px
+      ),
+      repeating-linear-gradient(
+        0deg,
+        transparent 0px,
+        transparent 15px,
+        hsl(0 0% 5%) 15px,
+        hsl(0 0% 5%) 30px
+      );
+    background-size: 120px 30px, 60px 30px, 120px 30px;
+    background-position: 0 0, 60px 15px, 0 0;
+  }
+}
+
+@layer utilities {
+  .glow-text {
+    text-shadow: 0 0 10px hsl(var(--glow-primary)), 
+                 0 0 20px hsl(var(--glow-primary) / 0.5);
+  }
+  
+  .glow-border {
+    box-shadow: 0 0 10px hsl(var(--glow-primary) / 0.5),
+                inset 0 0 10px hsl(var(--glow-primary) / 0.1);
+  }
+  
+  .glow-hover {
+    transition: all 0.3s ease;
+  }
+  
+  .glow-hover:hover {
+    box-shadow: 0 0 20px hsl(var(--glow-primary) / 0.8),
+                inset 0 0 20px hsl(var(--glow-primary) / 0.2);
+    border-color: hsl(var(--primary));
+  }
+}
