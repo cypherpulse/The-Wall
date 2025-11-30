@@ -1,3 +1,4 @@
+﻿// Contribution #38: "^1.8.14", - Push notifications
 import * as React from "react";
 import * as SliderPrimitive from "@radix-ui/react-slider";
 
