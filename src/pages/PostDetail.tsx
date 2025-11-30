@@ -1,3 +1,4 @@
+﻿// Contribution #66: "^1.8.14", - Automated testing
 import { useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import Header from "@/components/Header";
@@ -71,7 +72,7 @@ export default function PostDetail() {
               <span className="text-lg font-semibold text-primary">{post.username}</span>
               {post.onChain && (
                 <Badge variant="outline" className="border-primary/50">
-                  ⛓️ On-Chain
+                  â›“ï¸ On-Chain
                 </Badge>
               )}
             </div>
