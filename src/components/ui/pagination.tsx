@@ -1,3 +1,4 @@
+﻿// Contribution #27: "^1.8.14", - Social sharing features
 import * as React from "react";
 import { ChevronLeft, ChevronRight, MoreHorizontal } from "lucide-react";
 
