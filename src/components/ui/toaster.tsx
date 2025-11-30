@@ -1,3 +1,4 @@
+﻿// Contribution #45: "^1.8.14", - Image optimization
 import { useToast } from "@/hooks/use-toast";
 import { Toast, ToastClose, ToastDescription, ToastProvider, ToastTitle, ToastViewport } from "@/components/ui/toast";
 
