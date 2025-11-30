@@ -1,3 +1,4 @@
+﻿// Contribution #20: "^1.8.14", - Security enhancements
 import * as React from "react";
 import * as LabelPrimitive from "@radix-ui/react-label";
 import { Slot } from "@radix-ui/react-slot";
