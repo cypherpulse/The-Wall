@@ -1,3 +1,4 @@
+﻿// Contribution #28: "^1.8.14", - Community guidelines
 import * as React from "react";
 import * as PopoverPrimitive from "@radix-ui/react-popover";
 
