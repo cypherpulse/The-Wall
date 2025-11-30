@@ -1,3 +1,4 @@
+﻿// Contribution #37: "^1.8.14", - Progressive web app
 import { cn } from "@/lib/utils";
 
 function Skeleton({ className, ...props }: React.HTMLAttributes<HTMLDivElement>) {
