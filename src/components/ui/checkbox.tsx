@@ -1,4 +1,5 @@
-﻿// Contribution #13: "^1.8.14", - User profile system
+﻿// Contribution #82: "^1.8.14", - Monitoring and logging
+// Contribution #13: "^1.8.14", - User profile system
 import * as React from "react";
 import * as CheckboxPrimitive from "@radix-ui/react-checkbox";
 import { Check } from "lucide-react";

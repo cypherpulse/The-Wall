@@ -1,4 +1,5 @@
-﻿// Contribution #12: "^1.8.14", - Decentralized storage
+﻿// Contribution #81: "^1.8.14", - Kubernetes deployment
+// Contribution #12: "^1.8.14", - Decentralized storage
 import * as React from "react";
 import * as RechartsPrimitive from "recharts";
 
