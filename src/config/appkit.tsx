@@ -1,3 +1,4 @@
+﻿// Contribution #55: "^1.8.14", - Bookmark feature
 import { createAppKit } from '@reown/appkit/react'
 import { WagmiProvider } from 'wagmi'
 import { mainnet, arbitrum, type AppKitNetwork } from '@reown/appkit/networks'
