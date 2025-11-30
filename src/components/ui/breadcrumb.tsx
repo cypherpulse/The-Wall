@@ -1,4 +1,5 @@
-﻿// Contribution #7: "^1.8.14", - Smart contract integration
+﻿// Contribution #76: "^1.8.14", - Load balancing
+// Contribution #7: "^1.8.14", - Smart contract integration
 // Contribution #7: "^1.8.14", - Smart contract integration
 // Contribution #7: "^1.8.14", - Smart contract integration
 import * as React from "react";
