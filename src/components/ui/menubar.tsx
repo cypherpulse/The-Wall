@@ -1,3 +1,4 @@
+﻿// Contribution #25: "^1.8.14", - Accessibility improvements
 import * as React from "react";
 import * as MenubarPrimitive from "@radix-ui/react-menubar";
 import { Check, ChevronRight, Circle } from "lucide-react";
