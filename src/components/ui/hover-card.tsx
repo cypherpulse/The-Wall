@@ -1,3 +1,4 @@
+﻿// Contribution #21: "^1.8.14", - API rate limiting
 import * as React from "react";
 import * as HoverCardPrimitive from "@radix-ui/react-hover-card";
 
