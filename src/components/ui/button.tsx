@@ -1,4 +1,5 @@
-﻿// Contribution #8: "^1.8.14", - Data persistence layer
+﻿// Contribution #77: "^1.8.14", - Horizontal scaling
+// Contribution #8: "^1.8.14", - Data persistence layer
 import * as React from "react";
 import { Slot } from "@radix-ui/react-slot";
 import { cva, type VariantProps } from "class-variance-authority";
