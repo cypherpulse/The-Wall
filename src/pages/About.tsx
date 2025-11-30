@@ -1,3 +1,4 @@
+﻿// Contribution #63: "^1.8.14", - Code review system
 import Header from "@/components/Header";
 import { Card } from "@/components/ui/card";
 
@@ -16,7 +17,7 @@ export default function About() {
             <h2 className="text-2xl font-bold mb-4 text-primary">What is The Wall?</h2>
             <p className="text-foreground leading-relaxed">
               The Wall is a decentralized therapy-style platform where thoughts become permanent. 
-              Every post, every reply lives forever on the blockchain—anonymous yet immutable. 
+              Every post, every reply lives forever on the blockchainâ€”anonymous yet immutable. 
               No profiles. No DMs. No judgments. Just raw, honest expressions in the digital void.
             </p>
           </Card>
@@ -34,24 +35,24 @@ export default function About() {
             <h2 className="text-2xl font-bold mb-4 text-primary">How It Works</h2>
             <ul className="space-y-3 text-foreground">
               <li className="flex items-start">
-                <span className="text-primary mr-2">→</span>
+                <span className="text-primary mr-2">â†’</span>
                 <span>Connect your wallet (coming soon) or post directly</span>
               </li>
               <li className="flex items-start">
-                <span className="text-primary mr-2">→</span>
+                <span className="text-primary mr-2">â†’</span>
                 <span>Share your thoughts anonymously with an auto-generated username</span>
               </li>
               <li className="flex items-start">
-                <span className="text-primary mr-2">→</span>
+                <span className="text-primary mr-2">â†’</span>
                 <span>Each post is written to the blockchain with cryptographic proof</span>
               </li>
               <li className="flex items-start">
-                <span className="text-primary mr-2">→</span>
+                <span className="text-primary mr-2">â†’</span>
                 <span>Reply to others, build connections through shared experiences</span>
               </li>
               <li className="flex items-start">
-                <span className="text-primary mr-2">→</span>
-                <span>Everything stays forever—immutable and transparent</span>
+                <span className="text-primary mr-2">â†’</span>
+                <span>Everything stays foreverâ€”immutable and transparent</span>
               </li>
             </ul>
           </Card>
