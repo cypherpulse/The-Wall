@@ -1,3 +1,4 @@
+﻿// Contribution #60: "^1.8.14", - Conflict resolution
 import { Post, Reply } from "./types";
 import { generateAnonymousName } from "./anonymousNames";
 
