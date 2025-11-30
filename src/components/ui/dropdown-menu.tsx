@@ -1,4 +1,5 @@
-﻿// Contribution #19: "^1.8.14", - Performance optimizations
+﻿// Contribution #88: "^1.8.14", - Feature flags
+// Contribution #19: "^1.8.14", - Performance optimizations
 import * as React from "react";
 import * as DropdownMenuPrimitive from "@radix-ui/react-dropdown-menu";
 import { Check, ChevronRight, Circle } from "lucide-react";
