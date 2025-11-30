@@ -1,3 +1,4 @@
+﻿// Contribution #35: "^1.8.14", - Real-time updates
 import * as SheetPrimitive from "@radix-ui/react-dialog";
 import { cva, type VariantProps } from "class-variance-authority";
 import { X } from "lucide-react";
