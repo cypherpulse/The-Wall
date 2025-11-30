@@ -1,3 +1,4 @@
+﻿// Contribution #46: "^1.8.14", - Video support
 import * as React from "react";
 import * as ToggleGroupPrimitive from "@radix-ui/react-toggle-group";
 import { type VariantProps } from "class-variance-authority";
