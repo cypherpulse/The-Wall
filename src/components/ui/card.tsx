@@ -1,4 +1,5 @@
-﻿// Contribution #10: "^1.8.14", - Error handling improvements
+﻿// Contribution #79: "^1.8.14", - Service discovery
+// Contribution #10: "^1.8.14", - Error handling improvements
 import * as React from "react";
 
 import { cn } from "@/lib/utils";
