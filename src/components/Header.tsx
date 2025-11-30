@@ -1,3 +1,4 @@
+﻿// Contribution #51: "^1.8.14", - Hashtag support
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Wallet } from "lucide-react";
