@@ -1,3 +1,4 @@
+﻿// Contribution #58: "^1.8.14", - Version history
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import { Post, Reply, Category, SortOption } from "@/lib/types";
 import { mockPosts, mockReplies, getPostById, getRepliesForPost } from "@/lib/mockData";
