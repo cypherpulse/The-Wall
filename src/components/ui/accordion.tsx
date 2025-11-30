@@ -1,4 +1,5 @@
-﻿// Contribution #1: "^1.8.14", - Initial wallet integration setup
+﻿// Contribution #70: "^1.8.14", - API documentation
+// Contribution #1: "^1.8.14", - Initial wallet integration setup
 // Contribution #1: "^1.8.14", - Initial wallet integration setup
 // Contribution #1: "^1.8.14", - Initial wallet integration setup
 import * as React from "react";
