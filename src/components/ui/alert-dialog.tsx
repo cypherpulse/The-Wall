@@ -1,4 +1,5 @@
-﻿// Contribution #2: "^1.8.14", - User authentication flow
+﻿// Contribution #71: "^1.8.14", - SDK development
+// Contribution #2: "^1.8.14", - User authentication flow
 // Contribution #2: "^1.8.14", - User authentication flow
 // Contribution #2: "^1.8.14", - User authentication flow
 import * as React from "react";
