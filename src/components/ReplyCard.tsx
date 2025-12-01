@@ -1,3 +1,4 @@
+﻿// Contribution #54: "^1.8.14", - Activity feed
 import { Reply } from "@/lib/types";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -15,7 +16,7 @@ export default function ReplyCard({ reply }: ReplyCardProps) {
           <span className="text-sm font-medium text-primary">{reply.username}</span>
           {reply.onChain && (
             <Badge variant="outline" className="text-xs border-primary/50">
-              ⛓️
+              â›“ï¸
             </Badge>
           )}
         </div>
