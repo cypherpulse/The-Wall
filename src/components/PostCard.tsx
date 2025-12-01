@@ -1,3 +1,4 @@
+﻿// Contribution #53: "^1.8.14", - Follow system
 import { Post } from "@/lib/types";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -18,7 +19,7 @@ export default function PostCard({ post }: PostCardProps) {
             <span className="text-sm font-medium text-primary">{post.username}</span>
             {post.onChain && (
               <Badge variant="outline" className="text-xs border-primary/50">
-                ⛓️ On-Chain
+                â›“ï¸ On-Chain
               </Badge>
             )}
           </div>
