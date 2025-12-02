@@ -2,11 +2,12 @@
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Wallet } from "lucide-react";
-import { useAppKit } from "@reown/appkit/react";
+import { useAppKit, useAppKitAccount } from "@reown/appkit/react";
 
 export default function Header() {
   const location = useLocation();
   const { open } = useAppKit();
+  const { address, isConnected } = useAppKitAccount();
 
   const navLinks = [
     { path: "/", label: "Home" },
@@ -35,14 +36,31 @@ export default function Header() {
           ))}
         </nav>
 
-        <Button 
-          onClick={() => open()} 
-          size="sm" 
-          className="bg-primary text-primary-foreground hover:bg-primary/90 glow-hover"
-        >
-          <Wallet className="mr-2 h-4 w-4" />
-          Connect Wallet
-        </Button>
+        {isConnected ? (
+          <div className="flex items-center space-x-2">
+            <span className="text-sm font-medium text-primary">
+              {address ? `${address.slice(0, 6)}...${address.slice(-4)}` : 'Connected'}
+            </span>
+            <Button 
+              onClick={() => open({ view: 'Account' })} 
+              size="sm" 
+              variant="outline"
+              className="border-primary/30 text-primary hover:bg-primary/10"
+            >
+              <Wallet className="mr-2 h-4 w-4" />
+              Account
+            </Button>
+          </div>
+        ) : (
+          <Button 
+            onClick={() => open({ view: 'Connect' })} 
+            size="sm" 
+            className="bg-primary text-primary-foreground hover:bg-primary/90 glow-hover"
+          >
+            <Wallet className="mr-2 h-4 w-4" />
+            Connect Wallet
+          </Button>
+        )}
       </div>
     </header>
   );

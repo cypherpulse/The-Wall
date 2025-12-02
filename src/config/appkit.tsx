@@ -1,7 +1,7 @@
 ﻿// Contribution #55: "^1.8.14", - Bookmark feature
 import { createAppKit } from '@reown/appkit/react'
 import { WagmiProvider } from 'wagmi'
-import { mainnet, arbitrum, type AppKitNetwork } from '@reown/appkit/networks'
+import { mainnet, arbitrum, base, type AppKitNetwork } from '@reown/appkit/networks'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { WagmiAdapter } from '@reown/appkit-adapter-wagmi'
 import { ReactNode } from 'react'
@@ -20,8 +20,8 @@ const metadata = {
   icons: ['https://avatars.githubusercontent.com/u/179229932']
 }
 
-// 3. Set the networks
-const networks: [AppKitNetwork, ...AppKitNetwork[]] = [mainnet, arbitrum]
+// 3. Set the networks - include Base as the primary network
+const networks: [AppKitNetwork, ...AppKitNetwork[]] = [base, mainnet, arbitrum]
 
 // 4. Create Wagmi Adapter
 const wagmiAdapter = new WagmiAdapter({
@@ -41,10 +41,9 @@ createAppKit({
   },
   themeMode: 'light',
   themeVariables: {
-    '--w3m-accent': 'hsl(160, 100%, 50%)',
-    '--w3m-color-mix': 'hsl(0, 0%, 100%)',
-    '--w3m-color-mix-strength': 100,
-    '--w3m-border-radius-master': '0.5rem'
+    '--apkt-accent': '#000000',
+    '--apkt-color-mix': '#ffffff',
+    '--apkt-color-mix-strength': 0
   }
 })
 
