@@ -243,7 +243,7 @@ We welcome contributions from the community! Here's how you can help:
 ### Guidelines
 
 - Follow the existing code style
-- Write clear, concise commit messages
+- Write clear, concise commit messages for easy folow uo
 - Update documentation for any new features
 - Ensure all tests pass before submitting
 - Respect the anonymous nature of the platform
