@@ -1,4 +1,4 @@
-# 🚀 WalletConnect Integration Guide with Reown AppKit
+#  WalletConnect Integration Guide with Reown AppKit
 
 [![Reown AppKit](https://img.shields.io/badge/Reown_AppKit-v1.8.14-blue.svg)](https://docs.reown.com/appkit/overview)
 [![Base Network](https://img.shields.io/badge/Network-Base-orange.svg)](https://base.org)
