@@ -16,3 +16,7 @@
 - Added reply functionality using viem
 - Integrated smart contract calls for replies
 
+## Commit 5: Upvote Mechanism with ethers@^6.16.0
+- Implemented upvote functionality
+- Used ethers for contract interactions
+
