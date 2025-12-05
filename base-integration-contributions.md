@@ -20,3 +20,7 @@
 - Implemented upvote functionality
 - Used ethers for contract interactions
 
+## Commit 6: Event Listeners
+- Set up real-time event listeners
+- Added contract event monitoring
+
