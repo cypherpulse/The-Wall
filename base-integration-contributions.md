@@ -8,3 +8,7 @@
 - Configured Base Sepolia RPC endpoints
 - Updated network settings for testnet
 
+## Commit 3: Post Creation with wagmi@^3.0.2
+- Implemented post creation using wagmi hooks
+- Added transaction handling for Base blockchain
+
