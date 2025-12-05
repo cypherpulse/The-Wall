@@ -1,7 +1,7 @@
 ﻿// Contribution #55: "^1.8.14", - Bookmark feature
 import { createAppKit } from '@reown/appkit/react'
 import { WagmiProvider } from 'wagmi'
-import { mainnet, arbitrum, base, type AppKitNetwork } from '@reown/appkit/networks'
+import { mainnet, arbitrum, base, baseSepolia, type AppKitNetwork } from '@reown/appkit/networks'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { WagmiAdapter } from '@reown/appkit-adapter-wagmi'
 import { ReactNode } from 'react'
@@ -20,8 +20,8 @@ const metadata = {
   icons: ['https://avatars.githubusercontent.com/u/179229932']
 }
 
-// 3. Set the networks - include Base as the primary network
-const networks: [AppKitNetwork, ...AppKitNetwork[]] = [base, mainnet, arbitrum]
+// 3. Set the networks - Base Sepolia as primary for testing
+const networks: [AppKitNetwork, ...AppKitNetwork[]] = [baseSepolia, base, mainnet, arbitrum]
 
 // 4. Create Wagmi Adapter
 const wagmiAdapter = new WagmiAdapter({

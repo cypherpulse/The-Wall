@@ -11,17 +11,19 @@ interface PostCardProps {
 }
 
 export default function PostCard({ post }: PostCardProps) {
+  // Parse numeric values from contract (they come as strings)
+  const upvotes = typeof post.upvotes === 'string' ? parseInt(post.upvotes) : post.upvotes;
+  const replyCount = typeof post.replyCount === 'string' ? parseInt(post.replyCount) : post.replyCount;
+
   return (
     <Link to={`/post/${post.id}`}>
       <Card className="p-6 glow-hover cursor-pointer transition-all duration-300 hover:-translate-y-1">
         <div className="flex items-start justify-between mb-3">
           <div className="flex items-center space-x-2">
             <span className="text-sm font-medium text-primary">{post.username}</span>
-            {post.onChain && (
-              <Badge variant="outline" className="text-xs border-primary/50">
-                â›“ï¸ On-Chain
-              </Badge>
-            )}
+            <Badge variant="outline" className="text-xs border-primary/50">
+              🔗 On-Chain
+            </Badge>
           </div>
           <Badge variant="secondary" className="text-xs">
             {post.category}
@@ -35,11 +37,11 @@ export default function PostCard({ post }: PostCardProps) {
           <div className="flex items-center space-x-4">
             <div className="flex items-center space-x-1">
               <TrendingUp className="h-4 w-4" />
-              <span>{post.upvotes}</span>
+              <span>{upvotes}</span>
             </div>
             <div className="flex items-center space-x-1">
               <MessageSquare className="h-4 w-4" />
-              <span>{post.replyCount}</span>
+              <span>{replyCount}</span>
             </div>
           </div>
         </div>
