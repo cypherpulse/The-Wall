@@ -32,3 +32,7 @@
 - Added gas estimation features
 - Optimized transaction costs
 
+## Commit 9: Error Handling
+- Enhanced error handling for contracts
+- Added user-friendly error messages
+
