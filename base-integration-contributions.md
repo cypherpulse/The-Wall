@@ -40,3 +40,7 @@
 - Implemented data sync with blockchain
 - Added state management for contract data
 
+## Commit 11: Testing Utilities
+- Added smart contract testing helpers
+- Created utility functions for Base network
+
