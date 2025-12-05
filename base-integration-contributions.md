@@ -24,3 +24,7 @@
 - Set up real-time event listeners
 - Added contract event monitoring
 
+## Commit 7: Transaction State Management
+- Implemented transaction state tracking
+- Added loading and error states
+
