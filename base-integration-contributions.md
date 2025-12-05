@@ -12,3 +12,7 @@
 - Implemented post creation using wagmi hooks
 - Added transaction handling for Base blockchain
 
+## Commit 4: Reply System with viem@^2.40.3
+- Added reply functionality using viem
+- Integrated smart contract calls for replies
+
