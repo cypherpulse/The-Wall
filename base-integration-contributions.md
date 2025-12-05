@@ -28,3 +28,7 @@
 - Implemented transaction state tracking
 - Added loading and error states
 
+## Commit 8: Gas Optimization
+- Added gas estimation features
+- Optimized transaction costs
+
