@@ -29,7 +29,7 @@ export function ContractStatus() {
   };
 
   return (
-    <Card className="p-4 bg-card/50 border-primary/20">
+    <Card className="p-5 bg-card/80 border-primary/30">
       <div className="flex items-center justify-between mb-3">
         <h3 className="text-sm font-semibold">Smart Contract Status</h3>
         <div className="flex items-center gap-2">
