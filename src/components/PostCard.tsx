@@ -17,7 +17,7 @@ export default function PostCard({ post }: PostCardProps) {
 
   return (
     <Link to={`/post/${post.id}`}>
-      <Card className="p-6 glow-hover cursor-pointer transition-all duration-300 hover:-translate-y-1">
+      <Card className="p-6 glow-hover cursor-pointer transition-all duration-200 hover:-translate-y-0.5">
         <div className="flex items-start justify-between mb-3">
           <div className="flex items-center space-x-2">
             <span className="text-sm font-medium text-primary">{post.username}</span>
