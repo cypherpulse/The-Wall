@@ -25,7 +25,7 @@ export default function ReplyCard({ reply }: ReplyCardProps) {
   const downvotes = typeof reply.downvotes === 'string' ? parseInt(reply.downvotes) : reply.downvotes;
 
   return (
-    <Card className="p-4 bg-card/50">
+    <Card className="p-4 bg-card/60">
       <div className="flex items-start justify-between mb-2">
         <div className="flex items-center space-x-2">
           <span className="text-sm font-medium text-primary">{reply.username}</span>
