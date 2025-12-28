@@ -55,7 +55,7 @@ export default function CreatePostModal() {
           Post to The Wall
         </Button>
       </DialogTrigger>
-      <DialogContent className="sm:max-w-[600px] glow-border">
+      <DialogContent className="sm:max-w-[650px] glow-border">
         <DialogHeader>
           <DialogTitle className="text-2xl glow-text">Share Your Thoughts</DialogTitle>
         </DialogHeader>
