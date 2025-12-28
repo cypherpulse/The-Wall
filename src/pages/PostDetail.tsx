@@ -53,7 +53,7 @@ export default function PostDetail() {
     return (
       <div className="min-h-screen">
         <Header />
-        <main className="container mx-auto px-4 py-8 max-w-4xl text-center">
+        <main className="container mx-auto px-5 py-8 max-w-4xl text-center">
           <p className="text-muted-foreground">Post not found</p>
         </main>
       </div>
